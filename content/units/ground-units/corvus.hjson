@@ -12,13 +12,13 @@ abilities: [
 {
         "type": EnergyFieldAbility,
         "color": d06b53,
-        "damage": 15,
+        "damage": 20,
         "rotateSpeed": 30,
         "reload": 1,
         "sectors": 1,
         "effectRadius": 1,
  	"x": 0,
-    	"y": 11
+    	"y": 3
     },
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
@@ -26,6 +26,8 @@ abilities: [
             "range" : 1,
             "reload" : 1,
             "effect": "none",
+	    "x": 0,
+    	    "y": 3,
             "activeEffect": {
                 "type": "multiEffect",
                 "effects": [{
@@ -41,15 +43,15 @@ abilities: [
                 }]
             }
         }
-{
+   {
     type: ShieldArcAbility
-	region: enhancement-units-corvus-shield
+    region: enhancement-units-corvus-shield
     radius: 50
     angle: 360
-	width: 10
-	y: 0
+    width: 10
+    y: 0
 
-	cooldown: 6
+    cooldown: 6
     regen: 200
     max: 2300
     }
@@ -271,11 +273,11 @@ weapons: [
     }
 {
     name: reign-weapon
-    layerOffset: -0.01
+    layerOffset: -0.1
     shootCone: 45
     recoil: 5
-    x: 9.5
-    y: 8
+    x: 8
+    y: 12.5
 
     shootY: 11
     reload: 9
