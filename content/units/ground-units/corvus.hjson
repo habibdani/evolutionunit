@@ -327,8 +327,8 @@ weapons: [
 {
     name: repair-beam-weapon-center-large
     type: RepairBeamWeapon
-    layerOffset: 0.0002
-    rotationLimit: 180
+    // layerOffset: 0.0001
+    rotationLimit: 360
     shootY: 6
     x: 4
     y: -6.5
@@ -440,7 +440,7 @@ weapons: [
         shake: 1
 
         incendChance: 0.03
-        healPercent: 0.5
+        healPercent: 5
         incendSpread: 5
         incendAmount: 1
 
@@ -455,7 +455,7 @@ weapons: [
 {
     name: heal-shotgun-weapon
     recoil: 2.5
-    layerOffset: 0.0002
+    layerOffset: 0.0001
     shootY: 2.5
     shake: 2.2
     x: 5
