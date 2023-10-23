@@ -16,7 +16,9 @@ abilities: [
         "rotateSpeed": 30,
         "reload": 1,
         "sectors": 1,
-        "effectRadius": 1
+        "effectRadius": 1,
+ 	"x": 0,
+    	"y": 11
     },
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
@@ -269,11 +271,11 @@ weapons: [
     }
 {
     name: reign-weapon
-    layerOffset: -0.003
+    layerOffset: -0.01
     shootCone: 45
     recoil: 5
     x: 9.5
-    y: 9.5
+    y: 8
 
     shootY: 11
     reload: 9
