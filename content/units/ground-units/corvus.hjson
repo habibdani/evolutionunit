@@ -429,7 +429,7 @@ weapons: [
     reload: 36
 
     shoot: {
-        shots: 3
+        shots: 2
         shotDelay: 0.5
     }
 
@@ -439,10 +439,10 @@ weapons: [
 
     bullet: {
         type: LightningBulletType
-        lightningLengthRand: 100
+        lightningLengthRand: 50
         lightningColor: b91111
-        lightningLength: 100
-        hitColor: ffffff
+        lightningLength: 50
+        hitColor: b91111
 
         healPercent: 200
         damage: 15
