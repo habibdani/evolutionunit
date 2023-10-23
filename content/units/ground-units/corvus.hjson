@@ -1,6 +1,6 @@
 forceMultiTarget: true
 legSplashDamage: 310
-legSplashRange: 100
+legSplashRange: 25
 fogRadius: 650
 
 itemCapacity: 940
@@ -29,7 +29,7 @@ weapons: [
     shootCone: 15
 	mirror: false
     top: false
-	shootY: 5
+	shootY: 2
     shake: 14
     x: 0
     y: 0
@@ -73,7 +73,7 @@ weapons: [
 		sideLength: 0
 		sideAngle: 15
 		sideWidth: 0
-        length: 485
+        length: 2000
         width: 90
 
 		healPercent: 50
