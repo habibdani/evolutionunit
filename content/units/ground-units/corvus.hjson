@@ -21,7 +21,7 @@ abilities: [
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
             "duration" : 5,
-            "range" : 5,
+            "range" : 1,
             "reload" : 1,
             "effect": "none",
             "activeEffect": {
@@ -33,7 +33,7 @@ abilities: [
                     "colorTo": "d06b53",
                     "sizeFrom": 3,
                     "sizeTo": 1,
-                    "length": 0.01,
+                    "length": 1,
                     "lifetime": 30,
                     "lightOpacity": 0.2,
                 }]
