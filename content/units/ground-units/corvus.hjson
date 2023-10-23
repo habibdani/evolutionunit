@@ -247,8 +247,8 @@ weapons: [
     bullet: {
         type: BasicBulletType
         pierce: true
-        height: 33
-        width: 14
+        height: 15.5
+        width: 7
 
         splashDamageRadius: 13
         fragRandomSpread: 45
@@ -339,7 +339,7 @@ weapons: [
         collidesTeam: true
         splashDamage: 45
         homingPower: 0.9
-        homingRange: 300
+        homingRange: 250
         healPercent: 100
         inaccuracy: 5
         weaveScale: 5
@@ -389,12 +389,12 @@ weapons: [
         collidesTeam: true
         collidesAir: false
         drawSize: 120
-        maxRange: 90
+        maxRange: 200
         length: 550
         width: 3
 
         lifetime: 155
-        damage: 15
+        damage: 50
         shake: 1
 
         incendChance: 0.03
