@@ -17,8 +17,7 @@ abilities: [
         "reload": 1,
         "sectors": 1,
         "effectRadius": 1,
- 	"x": 0,
-    	"y": 3
+        "radius": 150,
     },
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
@@ -37,7 +36,6 @@ abilities: [
                     "sizeTo": 1,
                     "length": 1,
                     "lifetime": 30,
-		     "radius": 150,
                     "lightOpacity": 0.2,
 		    "x": 0,
 	    	    "y": 3,
@@ -274,7 +272,7 @@ weapons: [
     }
 {
     name: reign-weapon
-    layerOffset: -0.001
+    layerOffset: 0.0001
     shootCone: 45
     recoil: 5
     x: 8
@@ -329,6 +327,7 @@ weapons: [
 {
     name: repair-beam-weapon-center-large
     type: RepairBeamWeapon
+    layerOffset: 0.0002
     rotationLimit: 180
     shootY: 6
     x: 4
@@ -456,6 +455,7 @@ weapons: [
 {
     name: heal-shotgun-weapon
     recoil: 2.5
+    layerOffset: 0.0002
     shootY: 2.5
     shake: 2.2
     x: 5
