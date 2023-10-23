@@ -11,7 +11,7 @@ armor: 11
 abilities: [
 {
         "type": EnergyFieldAbility,
-        "color": ffd280,
+        "color": d06b53,
         "damage": 5,
         "rotateSpeed": 30,
         "reload": 1,
@@ -21,7 +21,7 @@ abilities: [
         {
             "type": "mindustry.entities.abilities.StatusFieldAbility",
             "duration" : 5,
-            "range" : 2,
+            "range" : 5,
             "reload" : 1,
             "effect": "none",
             "activeEffect": {
@@ -29,8 +29,8 @@ abilities: [
                 "effects": [{
                     "type": "ParticleEffect",
                     "particles": 1,
-                    "colorFrom": "ffd280",
-                    "colorTo": "d4816a",
+                    "colorFrom": "ffa665",
+                    "colorTo": "d06b53",
                     "sizeFrom": 3,
                     "sizeTo": 1,
                     "length": 0.01,
