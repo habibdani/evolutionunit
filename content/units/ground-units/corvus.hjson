@@ -269,11 +269,11 @@ weapons: [
     }
 {
     name: reign-weapon
-    layerOffset: -0.001
+    layerOffset: -0.003
     shootCone: 45
     recoil: 5
     x: 9.5
-    y: 11.5
+    y: 9.5
 
     shootY: 11
     reload: 9
@@ -327,7 +327,7 @@ weapons: [
     rotationLimit: 180
     shootY: 6
     x: 4
-    y: -5.5
+    y: -6.5
 
     repairSpeed: 1400
     beamWidth: 1
