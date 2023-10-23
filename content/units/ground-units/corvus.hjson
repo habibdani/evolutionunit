@@ -37,6 +37,7 @@ abilities: [
                     "sizeTo": 1,
                     "length": 1,
                     "lifetime": 30,
+		     "radius": 150,
                     "lightOpacity": 0.2,
 		    "x": 0,
 	    	    "y": 3,
@@ -273,11 +274,11 @@ weapons: [
     }
 {
     name: reign-weapon
-    layerOffset: -0.01
+    layerOffset: -0.001
     shootCone: 45
     recoil: 5
     x: 8
-    y: 12.5
+    y: 11.5
 
     shootY: 11
     reload: 9
