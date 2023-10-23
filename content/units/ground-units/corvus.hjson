@@ -87,7 +87,7 @@ weapons: [
 		lightningDelay: 1.1
         lightningLength: 5
 
-		colors: [ b91111, 000000 ]
+		colors: [ b91111, ffffff ]
 		lightningColor: b91111
 		lightColor: b91111
 
@@ -103,7 +103,7 @@ weapons: [
                 strokeFrom: 0
                 strokeTo: 7
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 followParent: true
                 rotWithParent: true
                 }
@@ -116,7 +116,7 @@ weapons: [
                 strokeFrom: 0
                 strokeTo: 7
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 followParent: true
                 rotWithParent: true
                 }
@@ -129,7 +129,7 @@ weapons: [
                 strokeFrom: 0
                 strokeTo: 5
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 followParent: true
                 rotWithParent: true
                 }
@@ -142,7 +142,7 @@ weapons: [
                 strokeFrom: 0
                 strokeTo: 9
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 followParent: true
                 rotWithParent: true
                 }
@@ -155,7 +155,7 @@ weapons: [
                 strokeFrom: 0
                 strokeTo: 6
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 followParent: true
                 rotWithParent: true
                 }
@@ -170,7 +170,7 @@ weapons: [
                 sizeFrom: 2.5
                 sizeTo: 0
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
                 followParent: true
@@ -186,7 +186,7 @@ weapons: [
                 sizeFrom: 5
                 sizeTo: 0
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
                 followParent: true
@@ -202,7 +202,7 @@ weapons: [
                 sizeFrom: 9
                 sizeTo: 0
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
                 followParent: true
@@ -220,7 +220,7 @@ weapons: [
                 sizeFrom: 3
                 sizeTo: 0
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 strokeFrom: 2
                 strokeTo: 0.4 
                 followParent: true
@@ -281,7 +281,7 @@ weapons: [
             lifetime: 45
 
             colorFrom: b91111
-            colorTo: 000000
+            colorTo: ffffff
         }
         hitEffect: {
             type: MultiEffect
@@ -296,7 +296,7 @@ weapons: [
                 lifetime: 25
 
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 }
 
             {
@@ -309,7 +309,7 @@ weapons: [
                 sizeFrom: 1.5
                 sizeTo: 0
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 strokeFrom: 1.25
                 strokeTo: 0.25            
                 }
@@ -319,7 +319,7 @@ weapons: [
         trailColor: b91111
         frontColor: b91111
         trailLength: 5.25
-        backColor: 000000
+        backColor: ffffff
         trailWidth: 0.5
         }
     }
@@ -372,7 +372,7 @@ weapons: [
             lifetime: 45
 
             colorFrom: b91111
-            colorTo: 000000
+            colorTo: ffffff
         }
         hitEffect: {
             type: MultiEffect
@@ -387,7 +387,7 @@ weapons: [
                 lifetime: 15
 
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 }
 
             {
@@ -400,7 +400,7 @@ weapons: [
                 sizeFrom: 1.5
                 sizeTo: 0
                 colorFrom: b91111
-                colorTo: 000000
+                colorTo: ffffff
                 strokeFrom: 1.25
                 strokeTo: 0.25            
                 }
@@ -410,7 +410,7 @@ weapons: [
         trailColor: b91111
         frontColor: b91111
         trailLength: 5.25
-        backColor: 000000
+        backColor: ffffff
         trailWidth: 0.5
         }
     }
@@ -467,7 +467,7 @@ weapons: [
         despawnEffect: blastExplosion
         hitEffect: blastExplosion
 
-        frontColor: 000000
+        frontColor: ffffff
         trailColor: b91111
         trailInterval: 15
         backColor: b91111
@@ -523,7 +523,7 @@ weapons: [
         smokeEffect: none
         largeHit: false
 
-        colors: [ b91111, 000000 ]
+        colors: [ b91111, ffffff ]
         }
     }
 ]
