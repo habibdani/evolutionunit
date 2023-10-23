@@ -29,7 +29,7 @@ weapons: [
     shootCone: 15
 	mirror: false
     top: false
-	shootY: 2
+	shootY: 5
     shake: 14
     x: 0
     y: 0
@@ -73,8 +73,8 @@ weapons: [
 		sideLength: 0
 		sideAngle: 15
 		sideWidth: 0
-        length: 2000
-        width: 90
+        length: 4000
+        width: 40
 
 		healPercent: 50
         lifetime: 65
@@ -163,7 +163,7 @@ weapons: [
             {
                 type: ParticleEffect
                 baseLength: 60
-                length: -60
+                length: -100
                 cone: 360
                 particles: 15
                 lifetime: 300
@@ -179,13 +179,13 @@ weapons: [
             {
                 type: ParticleEffect
                 baseLength: 50
-                length: -50
+                length: -80
                 cone: 360
                 particles: 5
                 lifetime: 300
                 sizeFrom: 5
                 sizeTo: 0
-                colorFrom: 84f491
+                colorFrom: f4be1b
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -201,7 +201,7 @@ weapons: [
                 lifetime: 300
                 sizeFrom: 9
                 sizeTo: 0
-                colorFrom: 84f491
+                colorFrom: 185184
                 colorTo: ffffff
                 strokeFrom: 0.8
                 strokeTo: 0.6 
@@ -247,7 +247,7 @@ weapons: [
     x: 20
     y: 3.5
 
-    reload: 240
+    reload: 140
 
     shoot: {
         firstShotDelay: 30
@@ -266,7 +266,7 @@ weapons: [
 
         splashDamageRadius: 10
         splashDamage: 45
-        lifetime: 90
+        lifetime: 150
         damage: 70
         speed: 3
 
@@ -293,9 +293,9 @@ weapons: [
                 sizeFrom: 0
                 sizeTo: 12
 
-                lifetime: 15
+                lifetime: 25
 
-                colorFrom: 84f491
+                colorFrom: f4be1b
                 colorTo: ffffff
                 }
 
@@ -357,7 +357,7 @@ weapons: [
 
         splashDamageRadius: 10
         splashDamage: 32
-        lifetime: 75
+        lifetime: 175
         damage: 70
         speed: 3
 
@@ -459,7 +459,7 @@ weapons: [
         healPercent: 25
         inaccuracy: 50
         weaveScale: 5
-        lifetime: 80
+        lifetime: 180
         weaveMag: 2
         speed: 2.25
         damage: 90
@@ -506,8 +506,8 @@ weapons: [
         collidesAir: false
         drawSize: 120
         maxRange: 90
-        length: 95
-        width: 4
+        length: 295
+        width: 3
 
         lifetime: 155
         damage: 15
