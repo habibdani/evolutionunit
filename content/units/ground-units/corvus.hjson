@@ -232,6 +232,22 @@ weapons: [
     }
 
 {
+    name: repair-beam-weapon-center-large
+    type: RepairBeamWeapon
+    rotationLimit: 180
+    shootY: 6
+    x: 5
+    y: -2.5
+
+    repairSpeed: 1400
+    beamWidth: 0.8
+
+    bullet: {
+        maxRange: 3000
+        }
+    }
+
+{
     name: laser-mount
     controllable: false
     layerOffset: -0.001
@@ -250,7 +266,7 @@ weapons: [
     reload: 140
 
     shoot: {
-        firstShotDelay: 30
+        firstShotDelay: 10
         shotDelay: 5
         shots: 5
     }
@@ -266,7 +282,7 @@ weapons: [
 
         splashDamageRadius: 10
         splashDamage: 45
-        lifetime: 220
+        lifetime: 320
         damage: 70
         speed: 3
 
@@ -341,7 +357,7 @@ weapons: [
     reload: 120
 
     shoot: {
-        firstShotDelay: 30
+        firstShotDelay: 10
         shotDelay: 5
         shots: 5
     }
@@ -357,7 +373,7 @@ weapons: [
 
         splashDamageRadius: 10
         splashDamage: 32
-        lifetime: 220
+        lifetime: 320
         damage: 70
         speed: 3
 
@@ -427,7 +443,7 @@ weapons: [
     y: -9
 
     velocityRnd: 0.2
-    inaccuracy: 25
+    inaccuracy: 2
     recoil: -4.65
     reload: 360
     shake: 1
@@ -454,14 +470,14 @@ weapons: [
         splashDamageRadius: 26
         collidesTeam: true
         splashDamage: 45
-        homingPower: 0.7
-        homingRange: 100
+        homingPower: 0.9
+        homingRange: 200
         healPercent: 25
-        inaccuracy: 50
+        inaccuracy: 5
         weaveScale: 5
-        lifetime: 250
+        lifetime: 450
         weaveMag: 2
-        speed: 2.25
+        speed: 3.25
         damage: 90
 
         despawnEffect: blastExplosion
@@ -506,7 +522,7 @@ weapons: [
         collidesAir: false
         drawSize: 120
         maxRange: 90
-        length: 350
+        length: 550
         width: 3
 
         lifetime: 155
