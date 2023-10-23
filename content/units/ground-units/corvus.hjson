@@ -1,6 +1,6 @@
 forceMultiTarget: true
 legSplashDamage: 310
-legSplashRange: 25
+legSplashRange: 100
 fogRadius: 650
 
 itemCapacity: 940
