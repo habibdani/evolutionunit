@@ -271,8 +271,8 @@ weapons: [
     name: reign-weapon
     shootCone: 45
     recoil: 5
-    x: 21.5
-    y: 1
+    x: 17.5
+    y: 9
 
     shootY: 11
     reload: 9
@@ -325,8 +325,8 @@ weapons: [
     type: RepairBeamWeapon
     rotationLimit: 180
     shootY: 6
-    x: 5
-    y: -2.5
+    x: 8
+    y: 5.5
 
     repairSpeed: 1400
     beamWidth: 1
@@ -345,7 +345,7 @@ weapons: [
     mirror: false
     shootY: 9
     x: 0
-    y: -9
+    y: -11
 
     velocityRnd: 0.2
     inaccuracy: 2
@@ -369,8 +369,8 @@ weapons: [
         shrinkX: 0.3
         shrinkY: 0.6
         drag: -0.003
-        height: 12
-        width: 12
+        height: 15
+        width: 15
 
         splashDamageRadius: 26
         collidesTeam: true
@@ -453,7 +453,7 @@ weapons: [
     shootY: 2.5
     shake: 2.2
     x: 5
-    y: 0.5
+    y: 9
 
     inaccuracy: 1
     reload: 36
