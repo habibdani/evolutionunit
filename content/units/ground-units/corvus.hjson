@@ -21,6 +21,13 @@ abilities: [
     regen: 200
     max: 2300
     }
+{
+    type: ShieldRegenFieldAbility 
+    reload: 180
+    amount: 100
+    range: 60
+    max: 120
+    }
 ]
 
 weapons: [
@@ -408,6 +415,52 @@ weapons: [
         largeHit: false
 
         colors: [ b91111, ffffff ]
+        }
+    }
+{
+    name: heal-shotgun-weapon
+    recoil: 2.5
+    shootY: 2.5
+    shake: 2.2
+    x: 5
+    y: 0.5
+
+    inaccuracy: 10
+    reload: 36
+
+    shoot: {
+        shots: 3
+        shotDelay: 0.5
+    }
+
+    ejectEffect: none
+
+    shootSound: spark
+
+    bullet: {
+        type: LightningBulletType
+        lightningLengthRand: 100
+        lightningColor: b91111
+        lightningLength: 100
+        hitColor: ffffff
+
+        healPercent: 200
+        damage: 50
+
+        shootEffect: shootHeal
+
+        lightningType: {
+            collidesTeam: true
+            hittable: false
+
+            statusDuration: 10
+            healPercent: 200
+            status: shocked
+            lifetime: 1.3
+
+            hitEffect: hitLancer
+            despawnEffect: none
+            }
         }
     }
 ]
