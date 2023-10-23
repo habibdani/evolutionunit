@@ -254,18 +254,18 @@ weapons: [
     bullet: {
         type: BasicBulletType
         pierce: true
-        height: 15.5
-        width: 7
+        height: 28
+        width: 13
 
         splashDamageRadius: 13
         fragRandomSpread: 45
         fragVelocityMin: 0.4
-        splashDamage: 80
+        splashDamage: 20
         fragBullets: 3
         fragLifeMin: 0
         pierceCap: 10
         lifetime: 25
-        damage: 140
+        damage: 100
         speed: 19
 
         hitEffect: blastExplosion
@@ -425,7 +425,7 @@ weapons: [
     x: 5
     y: 0.5
 
-    inaccuracy: 10
+    inaccuracy: 1
     reload: 36
 
     shoot: {
@@ -445,7 +445,7 @@ weapons: [
         hitColor: ffffff
 
         healPercent: 200
-        damage: 50
+        damage: 15
 
         shootEffect: shootHeal
 
