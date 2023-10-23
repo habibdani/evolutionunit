@@ -105,28 +105,28 @@ weapons: [
 
     bullet: {
         type: LaserBulletType
-		collidesTeam: true
-		largeHit: true
-		sideLength: 0
-		sideAngle: 15
-		sideWidth: 0
+	collidesTeam: true
+	largeHit: true
+	sideLength: 0
+	sideAngle: 15
+	sideWidth: 0
         length: 5000
         width: 50
 
-		healPercent: 10000
+	healPercent: 10000
         lifetime: 65
-		damage: 1350
+	damage: 1350
 
-		lightningLengthRand: 25
-		lightningAngleRand: 50
+	lightningLengthRand: 25
+	lightningAngleRand: 50
         lightningSpacing: 35
-		lightningDamage: 50
-		lightningDelay: 1.1
+	lightningDamage: 50
+	lightningDelay: 1.1
         lightningLength: 5
 
-		colors: [ b91111, ffffff ]
-		lightningColor: b91111
-		lightColor: b91111
+	colors: [ b91111, ffffff ]
+	lightningColor: b91111
+	lightColor: b91111
 
         parentizeEffects: true
         chargeEffect: {
@@ -269,10 +269,11 @@ weapons: [
     }
 {
     name: reign-weapon
+    layerOffset: -0.001
     shootCone: 45
     recoil: 5
-    x: 17.5
-    y: 9
+    x: 10.5
+    y: 11
 
     shootY: 11
     reload: 9
@@ -325,8 +326,8 @@ weapons: [
     type: RepairBeamWeapon
     rotationLimit: 180
     shootY: 6
-    x: 8
-    y: 5.5
+    x: 4
+    y: -3.5
 
     repairSpeed: 1400
     beamWidth: 1
@@ -453,7 +454,7 @@ weapons: [
     shootY: 2.5
     shake: 2.2
     x: 5
-    y: 9
+    y: 11
 
     inaccuracy: 1
     reload: 36
