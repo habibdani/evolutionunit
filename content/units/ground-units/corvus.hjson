@@ -73,17 +73,17 @@ weapons: [
 		sideLength: 0
 		sideAngle: 15
 		sideWidth: 0
-        length: 4000
-        width: 40
+        length: 5000
+        width: 50
 
-		healPercent: 50
+		healPercent: 10000
         lifetime: 65
 		damage: 1350
 
 		lightningLengthRand: 25
 		lightningAngleRand: 50
         lightningSpacing: 35
-		lightningDamage: 20
+		lightningDamage: 40
 		lightningDelay: 1.1
         lightningLength: 5
 
@@ -163,7 +163,7 @@ weapons: [
             {
                 type: ParticleEffect
                 baseLength: 60
-                length: -100
+                length: -60
                 cone: 360
                 particles: 15
                 lifetime: 300
@@ -179,7 +179,7 @@ weapons: [
             {
                 type: ParticleEffect
                 baseLength: 50
-                length: -80
+                length: -50
                 cone: 360
                 particles: 5
                 lifetime: 300
@@ -195,7 +195,7 @@ weapons: [
             {
                 type: ParticleEffect
                 baseLength: 40
-                length: -40
+                length: -20
                 cone: 360
                 particles: 3
                 lifetime: 300
@@ -213,7 +213,7 @@ weapons: [
                 startDelay: 290
                 baseLength: 120
                 line: true
-                length: -100
+                length: -60
                 cone: 360
                 particles: 30
                 lifetime: 15
@@ -230,6 +230,58 @@ weapons: [
         	}
         }
     }
+{
+    name: reign-weapon
+    shootCone: 45
+    recoil: 5
+    x: 21.5
+    y: 1
+
+    shootY: 11
+    reload: 9
+    shake: 2
+
+    ejectEffect: casing4
+    shootSound: bang
+
+    bullet: {
+        type: BasicBulletType
+        pierce: true
+        height: 33
+        width: 14
+
+        splashDamageRadius: 13
+        fragRandomSpread: 45
+        fragVelocityMin: 0.4
+        splashDamage: 80
+        fragBullets: 3
+        fragLifeMin: 0
+        pierceCap: 10
+        lifetime: 25
+        damage: 140
+        speed: 19
+
+        hitEffect: blastExplosion
+        shootEffect: shootBig
+
+        fragBullet: {
+            type: BasicBulletType
+            pierceBuilding: true
+            pierce: true
+            height: 10
+            width: 10
+
+            splashDamageRadius: 10
+            splashDamage: 15
+            pierceCap: 3
+            lifetime: 20
+            damage: 17
+            speed: 5
+
+            hitEffect: flakExplosion
+        	}
+        }
+}
 
 {
     name: repair-beam-weapon-center-large
@@ -240,194 +292,10 @@ weapons: [
     y: -2.5
 
     repairSpeed: 1400
-    beamWidth: 0.8
+    beamWidth: 1
 
     bullet: {
         maxRange: 3000
-        }
-    }
-
-{
-    name: laser-mount
-    controllable: false
-    layerOffset: -0.001
-	rotationLimit: 75
-    baseRotation: -55
-    rotateSpeed: 1.2
-    autoTarget: true
-    alternate: false
-    shootCone: 25
-    mirror: true
-    rotate: true
-    recoil: 2
-    x: 20
-    y: 3.5
-
-    reload: 140
-
-    shoot: {
-        firstShotDelay: 10
-        shotDelay: 5
-        shots: 5
-    }
-
-    ejectEffect: casing1
-    shootSound: laser
-
-    bullet: {
-        type: LaserBoltType
-        collidesAir: false
-        height: 30
-	    width: 5
-
-        splashDamageRadius: 10
-        splashDamage: 45
-        lifetime: 320
-        damage: 70
-        speed: 3
-
-        parentizeEffects: true
-        chargeEffect: {
-            type: WaveEffect
-            rotWithParent: true
-            followParent: true
-            sizeFrom: 7.5
-            sizeTo: 0
-
-            lifetime: 45
-
-            colorFrom: b91111
-            colorTo: ffffff
-        }
-        hitEffect: {
-            type: MultiEffect
-            effects: [
-            {
-                type: WaveEffect
-                rotWithParent: false
-                followParent: false
-                sizeFrom: 0
-                sizeTo: 12
-
-                lifetime: 25
-
-                colorFrom: b91111
-                colorTo: ffffff
-                }
-
-            {
-                type: ParticleEffect
-                line: true
-                length: 13.5
-                cone: 360
-                particles: 7
-                lifetime: 15
-                sizeFrom: 1.5
-                sizeTo: 0
-                colorFrom: b91111
-                colorTo: ffffff
-                strokeFrom: 1.25
-                strokeTo: 0.25            
-                }
-            ]
-        }
-
-        trailColor: b91111
-        frontColor: b91111
-        trailLength: 5.25
-        backColor: ffffff
-        trailWidth: 0.5
-        }
-    }
-{
-    name: laser-mount
-    controllable: false
-    layerOffset: -0.001
-    rotationLimit: 45
-    rotateSpeed: 1.2
-    autoTarget: true
-    alternate: false
-    shootCone: 25
-    mirror: true
-    rotate: true
-    recoil: 2
-    x: 9.75
-    y: 12.5
-
-    reload: 120
-
-    shoot: {
-        firstShotDelay: 10
-        shotDelay: 5
-        shots: 5
-    }
-
-    ejectEffect: casing1
-    shootSound: laser
-
-    bullet: {
-        type: LaserBoltType
-        collidesAir: false
-        height: 30
-	    width: 5
-
-        splashDamageRadius: 10
-        splashDamage: 32
-        lifetime: 320
-        damage: 70
-        speed: 3
-
-        parentizeEffects: true
-        chargeEffect: {
-            type: WaveEffect
-            rotWithParent: true
-            followParent: true
-            sizeFrom: 7.5
-            sizeTo: 0
-
-            lifetime: 45
-
-            colorFrom: b91111
-            colorTo: ffffff
-        }
-        hitEffect: {
-            type: MultiEffect
-            effects: [
-            {
-                type: WaveEffect
-                rotWithParent: false
-                followParent: false
-                sizeFrom: 0
-                sizeTo: 12
-
-                lifetime: 15
-
-                colorFrom: b91111
-                colorTo: ffffff
-                }
-
-            {
-                type: ParticleEffect
-                line: true
-                length: 13.5
-                cone: 360
-                particles: 7
-                lifetime: 15
-                sizeFrom: 1.5
-                sizeTo: 0
-                colorFrom: b91111
-                colorTo: ffffff
-                strokeFrom: 1.25
-                strokeTo: 0.25            
-                }
-            ]
-        }
-
-        trailColor: b91111
-        frontColor: b91111
-        trailLength: 5.25
-        backColor: ffffff
-        trailWidth: 0.5
         }
     }
 
@@ -471,8 +339,8 @@ weapons: [
         collidesTeam: true
         splashDamage: 45
         homingPower: 0.9
-        homingRange: 200
-        healPercent: 25
+        homingRange: 300
+        healPercent: 100
         inaccuracy: 5
         weaveScale: 5
         lifetime: 450
