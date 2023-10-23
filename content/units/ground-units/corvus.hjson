@@ -45,7 +45,7 @@ abilities: [
     radius: 50
     angle: 360
 	width: 8
-	y: -9
+	y: 0
 
 	cooldown: 6
     regen: 200
