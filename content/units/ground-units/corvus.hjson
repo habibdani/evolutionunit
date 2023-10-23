@@ -1,24 +1,24 @@
 forceMultiTarget: true
 legSplashDamage: 310
 legSplashRange: 25
-fogRadius: 65
+fogRadius: 650
 
 itemCapacity: 940
-rotateSpeed: 0.8
-speed: 0.25
+rotateSpeed: 1.2
+speed: 0.75
 armor: 11
 
 abilities: [
 {
     type: ShieldArcAbility
 	region: enhancement-units-corvus-shield
-    radius: 25
-    angle: 120
+    radius: 50
+    angle: 360
 	width: 8
 	y: -9
 
-	cooldown: 600
-    regen: 1.8
+	cooldown: 6
+    regen: 200
     max: 2300
     }
 ]
@@ -87,9 +87,9 @@ weapons: [
 		lightningDelay: 1.1
         lightningLength: 5
 
-		colors: [ 98ffa9, ffffff ]
-		lightningColor: 98ffa9
-		lightColor: 98ffa9
+		colors: [ ffd966, ffffff ]
+		lightningColor: 3d85c6
+		lightColor: 3d85c6
 
         parentizeEffects: true
         chargeEffect: {
@@ -455,7 +455,7 @@ weapons: [
         collidesTeam: true
         splashDamage: 45
         homingPower: 0.7
-        homingRange: 50
+        homingRange: 100
         healPercent: 25
         inaccuracy: 50
         weaveScale: 5
