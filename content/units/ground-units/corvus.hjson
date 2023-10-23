@@ -26,8 +26,6 @@ abilities: [
             "range" : 1,
             "reload" : 1,
             "effect": "none",
-	    "x": 0,
-    	    "y": 3,
             "activeEffect": {
                 "type": "multiEffect",
                 "effects": [{
@@ -40,6 +38,8 @@ abilities: [
                     "length": 1,
                     "lifetime": 30,
                     "lightOpacity": 0.2,
+		    "x": 0,
+	    	    "y": 3,
                 }]
             }
         }
@@ -273,7 +273,7 @@ weapons: [
     }
 {
     name: reign-weapon
-    layerOffset: -0.1
+    layerOffset: -0.01
     shootCone: 45
     recoil: 5
     x: 8
