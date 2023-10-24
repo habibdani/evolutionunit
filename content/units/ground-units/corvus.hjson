@@ -1,9 +1,12 @@
 forceMultiTarget: true
 legSplashDamage: 310
 legSplashRange: 25
-fogRadius: 650
+fogRadius: 150
 
 itemCapacity: 940
+health: 8000
+regen: 500
+max: 10000
 rotateSpeed: 1.2
 speed: 0.75
 armor: 11
