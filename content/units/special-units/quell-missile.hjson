@@ -43,7 +43,7 @@ weapons: [
 
     bullet: {
         type: ExplosionBulletType
-        collidesAir: false
+        collidesAir: true
 
         splashDamageRadius: 25
         splashDamage: 110
