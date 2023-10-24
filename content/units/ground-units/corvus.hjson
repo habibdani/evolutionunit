@@ -10,7 +10,7 @@ max: 10000
 rotateSpeed: 1.2
 speed: 0.75
 armor: 11
-
+immunities: [burning, freezing, unmoving, melting, corroded, blasted, shocked, electrified, sapped, spore-slowed, tarred, disarmed, muddy, slow]
 abilities: [
 {
         "type": EnergyFieldAbility,
